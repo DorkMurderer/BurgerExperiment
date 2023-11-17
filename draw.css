@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: purple;
+    font-weight: bold;
+    text-shadow: rgb(249, 206, 255) 1px 0 10px;
+}
+
+
+.container{
+    width: 100%;
+    margin: auto;
+    color: lightgoldenrodyellow;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    color: lightgoldenrodyellow;
+}
+
+.nav h2{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.49);
+    font-weight: bold;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.mid{
+    margin: auto;
+}
+
+
+body{
+   
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("dickdickdickdickdickfikfifdj.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+
+canvas{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid purple;
+    cursor:crosshair
+}
+
+
+.toolbox {
+    background-color: purple;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    width: 800px;
+    padding: 1rem;
+    justify-content: center;
+   
+
+}
+
+
+.toolbox > * {
+    background-color: rgb(178, 3, 178);
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 50px;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.toolbox > *:last-child {
+    margin-left:auto ;
+}
+
+@media screen and (max-width: 550px) {
+
+    .toolbox{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    canvas{
+        width: 600px;
+    }
+
+    h2{
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .toolbox{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    canvas{
+        width: 700px;
+    }
+
+    h2{
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 350px) {
+
+    .toolbox{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    canvas{
+        width: 650px;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+
+    
+}
